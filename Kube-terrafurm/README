@@ -1,0 +1,27 @@
+https://www.youtube.com/watch?v=-UtqHkrvFro
+
+
+
+https://registry.terraform.io/providers/hashicorp/kubernetes/latest/docs/guides/getting-started
+
+best page :
+https://registry.terraform.io/providers/hashicorp/kubernetes/latest/docs/guides/getting-started
+
+
+
+
+
+
+https://www.youtube.com/watch?v=-UtqHkrvFro
+
+
+
+
+
+NAME            TYPE       CLUSTER-IP       EXTERNAL-IP   PORT(S)        AGE
+react-service   NodePort   10.104.144.173   <none>        80:31000/TCP   34d
+
+
+
+
+ kubectl expose deployment react-deployment --type=LoadBalancer --name=my-service
